@@ -1,0 +1,4 @@
+<?php 
+require('calculatrice.php');
+?>
+

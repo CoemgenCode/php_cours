@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Exercices Javascript</title>
+
+</head>
+
+<body>
+
+
+    <!-- exo 1 -->
+    <form action="index.html">
+        <div>
+            <p>Trouver le carré de :</p>
+            <input type="number" id="carre" name="carre">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="recup()">
+    </form>
+
+    <div id="resultCarre"></div>
+
+    <!-- exo 2 -->
+    <form action="index.html">
+        <div>
+            <p>Entrez le prix HT :</p>
+            <input type="number" id="prix" name="prix">
+            <p>Entrez le nombre d'article :</p>
+            <input type="number" id="quantite" name="quantite">
+            <p>Entrez le taux de la Tva :</p>
+            <input type="number" id="tva" name="tva">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="prixTTC()">
+    </form>
+
+    <div id="resultTTC"></div>
+
+
+    <!-- exo 3 -->
+
+    <form action="index.html">
+        <div>
+            <p>Vérifier si le nombre est positif ou négatif</p>
+            <input type="number" id="posNeg" name="posNeg">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="posOrNeg()">
+    </form>
+
+    <div id="resultPosNeg"></div>
+
+
+    <form action="index.html">
+        <div>
+            <p>Vérifier si le produit des deux nombre est positif ou négatif</p>
+            <input type="number" id="produit01" name="produit01">
+            <input type="number" id="produit02" name="produit02">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="produit()">
+    </form>
+
+    <div id="produit"></div>
+
+    <form action="index.html">
+        <div>
+            <p>Vérifier si les noms sont dans l'ordre alphabétiques</p>
+            <input type="text" id="nom1" name="nom1">
+            <input type="text" id="nom2" name="nom2">
+            <input type="text" id="nom3" name="nom3">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="names()">
+    </form>
+
+    <div id="name"></div>
+
+    <form action="index.html">
+        <div>
+            <p>Vérifier si le produit des deux nombre est positif ou négatif ou nul</p>
+            <input type="number" id="prod1" name="prod1">
+            <input type="number" id="prod2" name="prod2">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="produitNul()">
+    </form>
+
+    <div id="produit2"></div>
+
+
+
+    <form action="index.html">
+        <div>
+            <p>Connaitre la catégorie selon l'age :</p>
+            <input type="number" id="agesCat" name="agesCat">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="age()">
+    </form>
+
+    <div id="age"></div>
+
+
+    <form action="index.html">
+        <div>
+            <p>incrémenter une valeur de +1</p>
+            <input type="number" id="increment" name="increment">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="incrementation()">
+    </form>
+
+    <div id="resultat"></div>
+
+
+
+    <form action="index.html">
+        <div>
+            <p>Table multiplication</p>
+            <input type="number" id="multiply" name="multiply">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Calculer" onclick="table()">
+    </form>
+    <div id="calcul"></div>
+
+
+
+    <form action="index.html">
+        <div>
+            <p>Remplir un tableau vide :</p>
+            <input type="text" id="nom" name="nom">
+            <input type="text" id="prenom" name="prenom">
+            <input type="number" id="ages" name="ages">
+        </div>
+        <br>
+        <input type="button" id="bouton" value="Remplir" onclick="tableau()">
+    </form>
+
+    <div id="tableau"></div>
+
+</body>
+
+</html>
